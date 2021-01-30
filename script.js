@@ -43,3 +43,6 @@ function handleTicketChange (ticket, isIncrease){
         const ticketCount = parseInt(ticketInput.value);
         return ticketCount;
     }
+    const button = document.getElementById('book-now').addEventListener('click', function(){
+        alert("Cruise Booking Success !");
+    })
